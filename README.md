@@ -3,11 +3,9 @@
 ### rgb.py
   - カラーの変更を行ったカメラ画像処理
 ```python
-cv2.createTrackbar('R',
-                   'title',0,100,myfunc)
+cv2.createTrackbar('R','title',0,100,myfunc)
 
-cv2.createTrackbar('G',
-                   'title',0,100,myfunc)
+cv2.createTrackbar('G','title',0,100,myfunc)
 
 cv2.createTrackbar('B','title',0,100,myfunc)
 ```
@@ -26,7 +24,7 @@ frame[:,:,0]*=B
 frame[:,:,1]*=G
 frame[:,:,2]*=R
 
-cv2.imshow('title', frame)  # show in the win
+cv2.imshow('title', frame)
 ```
  
  
