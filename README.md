@@ -2,8 +2,15 @@
 ## コード
 - rgb.py
   - カラーの変更を行ったカメラ画像処理
+  
 - gaus.py
   - ガウシアンフィルタをカメラ画像に掛け合わせた処理
+```python
+    v = cv2.getTrackbarPos('value',  # get the value
+                           'title')  # of the win
+    print(v)
+    blur = cv2.GaussianBlur(frame, (25, 25), v)
+```
 - gamma.py
   - ガンマ変換をカメラ画像で行う処理
 
