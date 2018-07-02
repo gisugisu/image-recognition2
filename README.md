@@ -1,6 +1,6 @@
 # OpenCVでカメラ画像を取得して処理する
 ## コード
-- rgb.py
+### rgb.py
   - カラーの変更を行ったカメラ画像処理
 ```python
 cv2.createTrackbar('R',
@@ -44,7 +44,7 @@ cv2.imshow('title', frame)  # show in the win
  以下のURLは実際に行った動画である.
  - https://youtu.be/ipo_wXW8yFo
   
-- gaus.py
+### gaus.py
   - ガウシアンフィルタをカメラ画像に掛け合わせた処理
 ```python
     v = cv2.getTrackbarPos('value','title')
@@ -66,7 +66,7 @@ cv2.imshow('title', frame)  # show in the win
 
 
 
-- gamma.py
+### gamma.py
   - ガンマ変換をカメラ画像で行う処理
   
 ```python
