@@ -6,8 +6,7 @@
 - gaus.py
   - ガウシアンフィルタをカメラ画像に掛け合わせた処理
 ```python
-    v = cv2.getTrackbarPos('value',  # get the value
-                           'title')  # of the win
+    v = cv2.getTrackbarPos('value','title')
     print(v)
     blur = cv2.GaussianBlur(frame, (25, 25), v)
 ```
