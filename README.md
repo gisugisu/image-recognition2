@@ -97,5 +97,5 @@ cv2.imshow('title', frame)
 
 ## 実行環境
 - python 3.6.5
-- opencv 3.4.1
+- opencv 3.3.1
 - MacOS 10.13.5
